@@ -1,4 +1,4 @@
-// Compiled by ClojureScript 0.0-2030
+// Compiled by ClojureScript .
 goog.provide('cstest2.core');
 goog.require('cljs.core');
 /**
@@ -12,8 +12,8 @@ var args = null;if (arguments.length > 0) {
   args = cljs.core.array_seq(Array.prototype.slice.call(arguments, 0),0);} 
 return alert__delegate.call(this,args);};
 alert.cljs$lang$maxFixedArity = 0;
-alert.cljs$lang$applyTo = (function (arglist__4854){
-var args = cljs.core.seq(arglist__4854);
+alert.cljs$lang$applyTo = (function (arglist__5252){
+var args = cljs.core.seq(arglist__5252);
 return alert__delegate(args);
 });
 alert.cljs$core$IFn$_invoke$arity$variadic = alert__delegate;
